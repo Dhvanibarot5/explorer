@@ -9,6 +9,10 @@ function App() {
   return (
     <div className="flex flex-wrap justify-center text-center items-center bg-black">
       <Counter />
+      <InputField />
+      <ChangeHeading />
+      <ToggleText />
+      <MouseEvents />
     </div>
   );
 }
